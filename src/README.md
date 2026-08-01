@@ -48,3 +48,14 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Testing
+
+Run backend tests from the repository root:
+
+```
+pytest -q
+```
+
+The tests are located in the `tests/` directory and validate listing activities,
+signup behavior, unregister behavior, and multi-step activity flows.
